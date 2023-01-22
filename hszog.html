@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Háromszög megszerkeszthetősége</title>
+    <link rel="stylesheet" href="hszog.css">
+</head>
+<body>
+    <form>
+        <fieldset id="urlap">
+            <legend><h3>Derékszögű háromszög oldalhosszai</h3></legend>
+            <label>egyik befogó:</label>
+            <input type="number" id="befogo1">
+            <br>
+            <label>másik befogó:</label>
+            <input type="number" id="befogo2">
+            <br>
+            <label>átfogó:</label>
+            <input type="number" id="atfogo">
+            <hr>
+            <button onclick="megszerkesztheto()">Megszerkeszthető?</button>
+            <button onclick="randomizalas()">Véletlen oldalhosszak 10..100-ból</button>
+            <button onclick="atfogoSzamitas()">Átfogó kiszámítása</button>
+        </fieldset>
+        </form>
+</body>
+<script src="hszog.js"></script>
+</html>
